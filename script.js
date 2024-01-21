@@ -7,17 +7,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const cardArray = [
         { name: 'card1', img: 'image/distracted.png' },
-        { name: 'card1', img: 'image/drake.png' },
-        { name: 'card2', img: 'image/drake2.jpg' },
-        { name: 'card2', img: 'image/ned.jpg' },
-        { name: 'card3', img: 'image/oppa.jpg' },
-        { name: 'card3', img: 'image/fine.png' },
-        { name: 'card4', img: 'image/yay.png' },
-        { name: 'card4', img: 'image/smart.png' },
-        { name: 'card5', img: 'image/success.png' },
-        { name: 'card5', img: 'image/surprised.png' },
-        { name: 'card5', img: 'image/simpsons.png' },
-        { name: 'card5', img: 'image/yuno.jpg' }
+        { name: 'card2', img: 'image/drake.png' },
+        { name: 'card3', img: 'image/drake2.jpg' },
+        { name: 'card4', img: 'image/ned.jpg' },
+        { name: 'card5', img: 'image/oppa.jpg' },
+        { name: 'card6', img: 'image/fine.png' },
+        { name: 'card7', img: 'image/yay.png' },
+        { name: 'card8', img: 'image/smart.png' },
+        { name: 'card9', img: 'image/success.png' },
+        { name: 'card10', img: 'image/surprised.png' },
+        { name: 'card11', img: 'image/simpsons.png' },
+        { name: 'card12', img: 'image/yuno.jpg' },
+        { name: 'card1', img: 'image/distracted.png' },
+        { name: 'card2', img: 'image/drake.png' },
+        { name: 'card3', img: 'image/drake2.jpg' },
+        { name: 'card4', img: 'image/ned.jpg' },
+        { name: 'card5', img: 'image/oppa.jpg' },
+        { name: 'card6', img: 'image/fine.png' },
+        { name: 'card7', img: 'image/yay.png' },
+        { name: 'card8', img: 'image/smart.png' },
+        { name: 'card9', img: 'image/success.png' },
+        { name: 'card10', img: 'image/surprised.png' },
+        { name: 'card11', img: 'image/simpsons.png' },
+        { name: 'card12', img: 'image/yuno.jpg' }
     ];
 
     function shuffle(array) {
