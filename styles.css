@@ -28,8 +28,8 @@ h1 {
 
 #game-board {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
     padding: 20px;
@@ -49,14 +49,14 @@ h1 {
 }
 
 .card img {
-    width: 100%;
+    width: 60%;
     height: auto;
-    visibility: hidden;
+    visibility: hidden; 
     display: block;
 }
 
 .card.show img {
-    visibility: visible;
+    visibility: visible; 
 }
 
 #start-game {
@@ -72,5 +72,5 @@ h1 {
 
 #start-game:hover {
     background-color: #43a047; 
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
