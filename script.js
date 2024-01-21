@@ -74,8 +74,8 @@ const cardArray = [
             cards[secondCardId].removeEventListener('click', flipCard);
             cardsWon.push(cardsChosen);
         } else {
-            cards[firstCardId].setAttribute('src', 'images/blank.png');
-            cards[secondCardId].setAttribute('src', 'images/blank.png');
+            cards[firstCardId].setAttribute('src', 'image/blank.png');
+            cards[secondCardId].setAttribute('src', 'image/blank.png');
         }
 
         cardsChosen = [];
