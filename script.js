@@ -5,31 +5,17 @@ document.addEventListener('DOMContentLoaded', () => {
     let cardsChosenId = [];
     let cardsWon = [];
 
-const cardArray = [
-        { name: 'card1', img: 'image/distracted.jpg' },
+    const cardArray = [
+        { name: 'card1', img: 'image/distracted.png' },
+        { name: 'card1', img: 'image/distracted.png' },
         { name: 'card2', img: 'image/drake.png' },
-        { name: 'card3', img: 'image/drake2.jpg' },
-        { name: 'card4', img: 'image/ned.jpg' },
-        { name: 'card5', img: 'image/oppa.jpg' },
-        { name: 'card6', img: 'image/fine.png' },
-        { name: 'card7', img: 'image/yay.png' },
-        { name: 'card8', img: 'image/smart.jpg' },
-        { name: 'card9', img: 'image/success.png' },
-        { name: 'card10', img: 'image/surprised.jpg' },
-        { name: 'card11', img: 'image/simpsons.jpg' },
-        { name: 'card12', img: 'image/yuno.jpg' },
-        { name: 'card1', img: 'image/distracted.jpg' },
         { name: 'card2', img: 'image/drake.png' },
-        { name: 'card3', img: 'image/drake2.jpg' },
-        { name: 'card4', img: 'image/ned.jpg' },
-        { name: 'card5', img: 'image/oppa.jpg' },
-        { name: 'card6', img: 'image/fine.png' },
-        { name: 'card7', img: 'image/yay.png' },
-        { name: 'card8', img: 'image/smart.jpg' },
-        { name: 'card9', img: 'image/success.png' },
-        { name: 'card10', img: 'image/surprised.jpg' },
-        { name: 'card11', img: 'image/simpsons.jpg' },
-        { name: 'card12', img: 'image/yuno.jpg' }
+        { name: 'card3', img: 'image/fine.png' },
+        { name: 'card3', img: 'image/fine.png' },
+        { name: 'card4', img: 'image/rollsafe.png' },
+        { name: 'card4', img: 'image/rollsafe.png' },
+        { name: 'card5', img: 'image/success.png' },
+        { name: 'card5', img: 'image/success.png' },
     ];
 
     function shuffle(array) {
@@ -43,7 +29,7 @@ const cardArray = [
 
         for (let i = 0; i < cardArray.length; i++) {
             const card = document.createElement('img');
-            card.setAttribute('src', 'images/blank.png');
+            card.setAttribute('src', 'image/blank.png');
             card.setAttribute('data-id', i);
             card.addEventListener('click', flipCard);
             grid.appendChild(card);
